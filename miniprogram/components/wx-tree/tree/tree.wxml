@@ -1,0 +1,9 @@
+<!--components/wx-tree/tree/tree.wxml-->
+
+<treeItem
+  wx:for="{{data}}"
+  wx:for-item="item" wx:for-index="idx" wx:key="id"
+  lable="{{item.lable}}"
+  disabled="{{item.disabled}}"
+  type="{{item.type}}"
+></treeItem>

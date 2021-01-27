@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "wxTree": "./../../components/wx-tree/tree/tree"
+  }
+}

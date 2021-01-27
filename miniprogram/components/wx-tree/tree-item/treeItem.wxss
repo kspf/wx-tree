@@ -1,0 +1,59 @@
+.tree-item {
+  padding-left: 15rpx;
+}
+.tree-group .tree-item {
+  padding-left: 40rpx;
+}
+.tree-item .tree-content{
+  height: 98rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #F2F2F2;
+}
+.tree-item .tree-content-title{
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  opacity: 1;
+}
+.tree-item .tree-content-title .icon{
+  width: 24rpx;
+  height: 24rpx;
+  transition: all .2s linear;
+}
+.tree-item .tree-content-title .icon.open{
+  transform-origin: center;
+  transform: rotate(90deg);
+}
+.tree-item .tree-content-title .icon.close{
+  transform: rotate(0deg);
+}
+.tree-item .tree-content-title .text{
+  margin-left: 14rpx;
+}
+.tree-item .checked-content {
+  padding-right: 30rpx;
+}
+.tree-item .checked-content .tree-content-checked{
+  width: 32rpx;
+  height: 32rpx;
+  border: 2rpx solid #313340;
+  border-radius: 50%;
+  opacity: 0.45;
+  box-sizing: border-box;
+}
+.tree-item .checked-content .icon{
+  width: 32rpx;
+  height: 32rpx;
+}
+.tree-item .tree-group {
+  overflow: hidden;
+}
+.tree-item .tree-group.open{
+  height: auto;
+}
+.tree-item .tree-group.close{
+  height: 0;
+}

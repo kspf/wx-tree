@@ -1,0 +1,12 @@
+<view class="tree-item">
+  <view class="tree-content">
+    <view class="tree-content-title">
+      <image  class="icon open"  mode="widthFix" src="./../image/ic_knowledge_arrow_sq.svg"></image>
+      <text class="text">{{lable}}</text>
+    </view>
+    <view class="checked-content">
+      <view class="tree-content-checked"></view>
+      <image  hidden="{{!checked}}" class="icon" mode="widthFix" src="./../image/ic_gouxuan_s.svg"></image>
+    </view>
+  </view>
+</view>
