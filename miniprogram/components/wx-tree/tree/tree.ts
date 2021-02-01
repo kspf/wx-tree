@@ -16,5 +16,10 @@ Component({
    * 组件的方法列表
    */
   methods: {
+    openChenge({ detail }){
+      if(detail.id){
+        console.log(this.selectComponent(detail.id))
+      }
+    }
   }
 })

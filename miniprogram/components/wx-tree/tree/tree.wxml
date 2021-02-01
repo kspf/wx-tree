@@ -3,7 +3,10 @@
 <treeItem
   wx:for="{{data}}"
   wx:for-item="item" wx:for-index="idx" wx:key="id"
+  treeId="{{item.id}}"
+  id="{{item.id}}"
   lable="{{item.lable}}"
   disabled="{{item.disabled}}"
   type="{{item.type}}"
+  bind:openChenge="openChenge"
 ></treeItem>

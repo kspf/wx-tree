@@ -1,11 +1,3 @@
-// data种每一项
-interface Data {
-  lable: string,
-  children: Array<Data>,
-  disabled: boolean,
-  id: string | number,
-}
-
 const data: Array<Data> = [
   {
     "children": [

@@ -11,7 +11,7 @@ Component({
     disabled: {
       type: Boolean
     },
-    id: {
+    treeId: {
       type: String ||  Number
     },
   },
@@ -27,6 +27,13 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    opendir(){
+      let id = this.data.treeId;
+      console.log(this.selectComponent(id));
+      console.log(id)
+      this.triggerEvent('openChenge', {
+        id
+      });
+    }
   }
 })
