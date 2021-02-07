@@ -6942,6 +6942,8 @@ ctx.draw()
         ): void
     }
     interface Console {
+        time(arg0?: string) : void
+        timeEnd(arg0?: string) : void
         /** [console.debug()](https://developers.weixin.qq.com/miniprogram/dev/api/base/debug/console.debug.html)
          *
          * 向调试面板中打印 debug 日志 */

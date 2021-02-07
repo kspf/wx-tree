@@ -6,10 +6,16 @@ interface Options {
   data: Array<Data>,
   // 
 }
+interface Opt {
+  // 传入源数据
+  data: Array<Data>,
+  // 
+}
 //类需要参数
 interface Tree  {
 
 }
+
 // data种每一项
 interface Data {
   lable: string,
